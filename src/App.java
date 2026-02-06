@@ -2,8 +2,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         int a = 20;
         int b = 4;
-        System.out.println(add(a,b)+"ですよ");
-        System.out.println(sub(a,b)+"ですよ");
+        System.out.println(add(a,b)+"だよ");
+        System.out.println(sub(a,b)+"だよ");
         System.out.println(multi(a,b));
         System.out.println(div(a,b));
     }
@@ -27,4 +27,5 @@ public class App {
     public static int div(int a,int b){
         return 0;
     }
+
 }
